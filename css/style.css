@@ -1,0 +1,25 @@
+body {
+  color: #007;
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, rgb(106, 15, 15), rgba(106, 15, 15, 0.9));
+}
+h1{
+  color: #008
+}
+h3{
+  color: #009
+}
+.container{
+  display: flex;
+}
+.container__img{
+  width: 50%;
+}
+.container__video{
+  width: 50%;
+}
+span{
+  color: #ddd;
+  background-color: #0004;
+}
