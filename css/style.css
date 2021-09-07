@@ -16,19 +16,21 @@ body {
 }
 
 .div-loader__img{
-  margin-top: 5%;
-  height: 70%;
+  margin-top: 3%;
+  height: 50%;
   width: 100%;
   object-fit: scale-down;
 }
 .div-loader__loding{
   width: 50%;
-  height: 20%;
+  height: 30%;
   min-width: 280px;
 }
 
 .div-loader__gif{
+  height: 50%;
   width: 100%;
+  object-fit: scale-down;
 }
 
 h1{
@@ -60,11 +62,11 @@ h3{
   display: flex; 
   flex-direction: column;
   align-items: center;
-  border: 3px solid #c22;
+  border: 6px solid #c22;
 }
 
 .marquee-container__marquee{
-  border: 1px solid #722;
+  border: 4px solid #722;
   margin: 10px 0 10px 0;
 }
 
