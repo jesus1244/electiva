@@ -1,3 +1,7 @@
+:root{
+  --color-rojo:#800;
+}
+
 body {
   display:flex;
   flex-direction: column;
@@ -34,11 +38,19 @@ body {
 }
 
 h1{
-  color: #800
+  color: #ddd;
+  width: fit-content;
+  padding: 2px 6px 2px 6px;
+  border-radius: 8px;
+  background-color:#800;
 }
 
 h3{
   color: #900
+}
+.flex-principal{
+  display: flex;
+  flex-direction: column;
 }
 
 .page-load{
@@ -46,12 +58,25 @@ h3{
   padding: 0 12px 0 12px
 }
 
+.cabecera{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 40vh;
+  background-color: var(--color-rojo)
+}
+.cabecera__img{
+  height:70%;
+  object-fit: scale-down;
+}
+
 .container{
   display: flex;
+  justify-content: center;
 }
 
 .container__img{
-  width: 50%;
+  width: 30%;
 }
 
 .container__video{
