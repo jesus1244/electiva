@@ -9,10 +9,17 @@
     <title>carlos vergel</title>
 
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <div>
+    <div class="div-loader" id="code.js--poner-none">
+        <img class="div-loader__img" src="img/last-surprise.png" alt="">
+        <div class="div-loader__loding">
+            <img class="div-loader__gif" src="img/loadingwords_p5.gif" alt="">
+        </div>
+    </div>
+    <div class="page-load" id="code.js--quitar-none" style="display: none">
         <h1>HTML & CSS: Cuerso practico avanzado</h1>
         <h3>Datos del libro</h3>
         <ul>
@@ -30,7 +37,7 @@
             </li>
         </ul>
         <hr>
-        <h3>Descripción del libro</h3>
+        <h3>Descripción del libro (pondre tal cual para mostrar que se poner texto)</h3>
         <p>
             Aunque los inicios de <b>Internet</b> se remontan alos años sesenta, no ha sido hasta los años noventa
             cuando, gracias a la <b>Web</b>,
@@ -52,26 +59,36 @@
         </p>
         <h3>ahora cargare un video y una imagen al lado</h3>
         <div class="container">
-            <img class="container__img" src="img/anime-logo-clipart.png" alt="">
-            <video class="container__video" controls="" src="video/Super Smash Bros. Ultimate_ Persona 5 Joker Fighter Reveal Trailer - The Game Awards 2018.mp4"></video>
+            <img class="container__img" src="img/last-surprise.png" alt="">
+            <video class="container__video" controls=""
+                src="video/Super Smash Bros. Ultimate_ Persona 5 Joker Fighter Reveal Trailer - The Game Awards 2018.mp4"></video>
         </div>
         <hr>
         <h3>etiqueta marquee</h3>
         <p>
-            y ahora voy a usar marquee, una etiqueta obsoleta dicho por la pagina de 
-            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee">mozilla</a> 
-            es interesante, pero entiendo que es menor ver una infoamacio estatica a batallar para leer lo que halla dentro de esta
+            y ahora voy a usar marquee, una etiqueta obsoleta dicho por la pagina de
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee">mozilla</a>
+            , es interesante, pero entiendo que es mejor ver una infoamacio estatica a batallar para leer lo que halla
+            dentro de esta
         </p>
-        <marquee>este texto ira de derecha a izquierda</marquee>
+        <div class="marquee-container">
 
-        <marquee direction="up">este etxto ira hacia arriba</marquee>
+            <marquee class="marquee-container__marquee">este texto ira de derecha a izquierda</marquee>
 
-        <marquee direction="down" width="200" height="200px" behavior="alternate" style="border:solid">
-            <marquee behavior="alternate">
-                y este es el efecto de los televisores, ojala llegue a la esquina
+            <marquee class="marquee-container__marquee marquee-container__marquee--fit-content" direction="up">este
+                etxto ira hacia arriba</marquee>
+
+            <marquee class="marquee-container__marquee marquee-container__marquee" direction="down" width="300"
+                height="300" behavior="alternate" style="border:solid">
+                <marquee behavior="alternate">
+                    efecto de los televisores
+                </marquee>
             </marquee>
-        </marquee>
+
+        </div>
+
     </div>
+    <script src="js/code.js"></script>
 </body>
 
 </html>
