@@ -2,7 +2,13 @@
     --bs-navbar-height: 13vh;
     --my-primary-color: 136, 10, 10;
 }
-
+.bton-nav {
+    display:none;
+    height:100%;
+}
+.bi-card-list {
+    height: 80%;
+}
 body {
     height: 100vh;
 }
@@ -19,6 +25,27 @@ body {
     border: none;
     height: 100%;
 }
+.btn-primary {
+    font-size:14px;
+}
 .btn-primary:hover {
     color: var(--bs-gray) !important;
+}
+.navCel{
+    position:fixed;
+    display: none;
+    top: var(--bs-navbar-height);
+    background-color: #6e3;
+    width: 100%;
+    height: calc(100vh - var(--bs-navbar-height));
+
+}
+
+@media screen and (max-width: 600px) {
+    .icon{
+        display:none;
+    }
+    .bton-nav {
+        display:inline;
+    }
 }
