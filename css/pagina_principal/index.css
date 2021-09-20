@@ -1,0 +1,20 @@
+:root{
+    --bs-navbar-height: 24vh;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--purple);
+}
+.icon{
+    height: 100%;
+}
+.nav-principal {
+    height: var(--bs-navbar-height);
+    position: fixed;
+}
+.img-thumbnail{
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
