@@ -1,20 +1,24 @@
 :root{
-    --bs-navbar-height: 24vh;
+    --bs-navbar-height: 13vh;
+    --my-primary-color: 136, 10, 10;
 }
 
 body {
     height: 100vh;
-    background-color: var(--purple);
 }
 .icon{
     height: 100%;
+    min-height: fit-content;
 }
 .nav-principal {
     height: var(--bs-navbar-height);
-    position: fixed;
+    min-height: 60px;
 }
-.img-thumbnail{
+.img-thumbnail {
     background-color: transparent;
     border: none;
     height: 100%;
+}
+.btn-primary:hover {
+    color: var(--bs-gray) !important;
 }
