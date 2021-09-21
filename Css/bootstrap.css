@@ -11029,5 +11029,11 @@ fieldset:disabled .btn {
     background-image: url(../Img/09.jpg);
 }
 
+#box2 {
+    width: 47%;
+    height: auto;
+    background-image: url(../Img/ingredientes-comida\ .jpg);
+}
+
 
 /*# sourceMappingURL=bootstrap.css.map */
