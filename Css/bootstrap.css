@@ -6449,7 +6449,10 @@ fieldset:disabled .btn {
 }
 
 .carousel {
+    padding-left: 40px !important;
     position: relative;
+    padding-right: 40px;
+    padding-top: 43px;
 }
 
 .carousel.pointer-event {
@@ -11025,4 +11028,4 @@ fieldset:disabled .btn {
 }
 
 
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap.css.map *
