@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Hote¡Ya!</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="/Js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -56,9 +57,37 @@
                 <p class=" text-justify  text-white  "> Sé feliz en uno de los mejores hoteles en Cartagena, Hotel Las Américas. Somos un hotel 5 estrellas a la orilla del Mar Caribe. Tenemos todo para que encuentres más opciones en tu visita de placer en pareja o familia, o en tu viaje de
                     negocios o congresos, a Cartagena de Indias. Disfruta de la magia del Caribe colombiano, en el hotel que te ofrece más que todos los hoteles en Cartagena. Dos opciones de alojamiento en una torre moderna o instalaciones de estilo caribeño.
                     Y más playas, más piscinas, bares, restaurantes, amplios salones y jardines, centro de negocios, gimnasio, spa, cancha de tenis, mini golf, salas de juego y más, mucho más, de las mejores vistas de la ciudad.</p>
-                <button class=" btn btn-primary btn-primary-outline-success " type="button "> ¡Reserva! </button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">¡Reserva!</button>
             </div>
 
+        </div>
+        <!--Boton-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hote¡Ya!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Enviar mensaje</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
